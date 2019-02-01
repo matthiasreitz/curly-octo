@@ -7,18 +7,17 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
+        <link rel="App" type="text/css" href ="App.css" />
           <h2> _This is a <sub>level 2</sub> header_</h2>
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
-          <span title="div1">
+          <div title="div1" id="div1">
             <p> where does this end up?</p>
-            <span title="div2">
-              <p>
-                and what does this do?
-              </p>
-            </span>
-          </span>
+          </div>
+          <div title="div2" id="div2">
+              <p>and what does this do?</p>
+          </div>
 
         </header>
       </div>

@@ -30,3 +30,10 @@
     transform: rotate(360deg);
   }
 }
+
+.div1 {
+  float: left;
+}
+.div2 {
+  float: right;
+}
