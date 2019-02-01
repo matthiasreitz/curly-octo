@@ -17,10 +17,11 @@ class App extends Component {
           <div> 
             <h1>
               I Am a HEADER!
-              <p>
-                It is me - a pragraph
-              </p>
             </h1>
+            <p>
+              It is me - a pragraph
+            </p>
+          
           </div>
           <p> 
             This is the second paragraph!
