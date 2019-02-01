@@ -30,6 +30,10 @@
     transform: rotate(360deg);
   }
 }
+
+.span1 {
+  border: 5px solid red
+}
 .div1 {
   border: 1px solid red;
   height: 200px;
