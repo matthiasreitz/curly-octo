@@ -7,7 +7,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          
+          <h2> _This is a level 2 heaer_</h2>
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
