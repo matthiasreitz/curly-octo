@@ -11,8 +11,20 @@ class App extends Component {
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
-          <p title="tooooooltip"> I am a tooltip. Hover me! </p>
-          <p> This is the second paragraph!</p>
+          <p title="tooooooltip"> 
+            I am a tooltip. Hover me! 
+          </p>
+          <div> 
+            <h1>
+              I Am a HEADER!
+              <p>
+                It is me - a pragraph
+              </p>
+            </h1>
+          </div>
+          <p> 
+            This is the second paragraph!
+          </p>
           <a
             className="App-link"
             href="https://reactjs.org"
