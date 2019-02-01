@@ -33,9 +33,11 @@
 
 .span1 {
   column-count: 2;
+  align-content: space-around;
 }
 .div1 {
   float: left;
+  letter-spacing: 10px
 }
 .div2 {
   float: right;
