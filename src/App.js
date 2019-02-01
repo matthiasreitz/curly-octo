@@ -17,7 +17,7 @@ class App extends Component {
               <p>where does this end up?</p>
             </div>
             <div title="div2" id="div2">
-              <p>and what does this do?</p>
+              <p style="color:blue">and what does this do?</p>
             </div>
           </span>
         </header>
