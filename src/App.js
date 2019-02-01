@@ -11,14 +11,15 @@ class App extends Component {
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <div title="div1">
+            <p> where does this end up?</p>
+            <div title="div2">
+              <p>
+                and what does this do?
+              </p>
+            </div>
+          </div>
+
         </header>
       </div>
     );
