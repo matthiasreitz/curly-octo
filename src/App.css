@@ -30,15 +30,3 @@
     transform: rotate(360deg);
   }
 }
-
-.span1 {
-  column-count: 2;
-  align-content: space-around;
-}
-.div1 {
-  float: left;
-  letter-spacing: 5cm
-}
-.div2 {
-  float: right;
-}
