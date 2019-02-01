@@ -18,8 +18,7 @@ class App extends Component {
             </div>
             <div 
             title="div2" 
-            id="div2"
-            style="color:blue">
+            id="div2">
               <p >and what does this do?</p>
             </div>
           </span>
