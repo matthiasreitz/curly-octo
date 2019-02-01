@@ -21,16 +21,6 @@ class App extends Component {
             <p>
               It is me - a pragraph
             </p>
-            <span>
-              <p>
-                span1
-              </p>
-            </span>
-            <span>
-              <p>
-                span2
-              </p>
-            </span>
           </div>
           <p> 
             This is the second paragraph!
