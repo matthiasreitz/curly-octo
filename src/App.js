@@ -14,14 +14,19 @@ class App extends Component {
           <p title="tooooooltip"> 
             I am a tooltip. Hover me! 
           </p>
-          <div> 
+          <div style="background-color:lightblue"> 
             <h1>
               I Am a HEADER!
             </h1>
             <p>
               It is me - a pragraph
             </p>
-          
+            <span>
+              span1
+            </span>
+            <span>
+              span2
+            </span>
           </div>
           <p> 
             This is the second paragraph!
