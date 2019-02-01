@@ -14,10 +14,10 @@ class App extends Component {
           </p>
           <span id="span1">
             <div title="div1" id="div1">
-              <p>where does this end up?</p>
+              <p id="p1">where does this end up?</p>
             </div>
             <div title="div2" id="div2">
-              <p >and what does this do?</p>
+              <p id="p2">and what does this do?</p>
             </div>
           </span>
         </header>
