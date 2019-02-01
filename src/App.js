@@ -22,10 +22,14 @@ class App extends Component {
               It is me - a pragraph
             </p>
             <span>
-              span1
+              <p>
+                span1
+              </p>
             </span>
             <span>
-              span2
+              <p>
+                span2
+              </p>
             </span>
           </div>
           <p> 
