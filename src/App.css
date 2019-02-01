@@ -30,3 +30,13 @@
     transform: rotate(360deg);
   }
 }
+.div1 {
+  border: 1px solid red;
+  height: 200px;
+  float:  left;
+}
+.div2 {
+  border: 2px solid blue;
+  height: 200px;
+  float: right;
+}

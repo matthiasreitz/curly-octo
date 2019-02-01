@@ -16,9 +16,7 @@ class App extends Component {
             <div title="div1" id="div1">
               <p>where does this end up?</p>
             </div>
-            <div 
-            title="div2" 
-            id="div2">
+            <div title="div2" id="div2">
               <p >and what does this do?</p>
             </div>
           </span>
