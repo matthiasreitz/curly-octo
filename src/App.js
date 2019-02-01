@@ -11,14 +11,14 @@ class App extends Component {
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
-          <div title="div1">
+          <span title="div1">
             <p> where does this end up?</p>
-            <div title="div2">
+            <span title="div2">
               <p>
                 and what does this do?
               </p>
-            </div>
-          </div>
+            </span>
+          </span>
 
         </header>
       </div>
