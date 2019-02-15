@@ -18,6 +18,7 @@ class App extends Component {
             </div>
             <div title="div2" id="div2">
               <p id="p2">and what does this do?</p>
+              <p> das ist der dev branch </p>
             </div>
           </span>
         </header>
