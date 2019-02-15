@@ -18,6 +18,7 @@ class App extends Component {
             </div>
             <div title="div2" id="div2">
               <p id="p2">and what does this do?</p>
+              <p> Das ist neu!</p> 
             </div>
           </span>
         </header>
