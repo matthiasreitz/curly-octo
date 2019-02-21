@@ -20,6 +20,6 @@ steps:
 - task: AzureRmWebAppDeployment@4
   displayName: 'Azure App Service Deploy: curlyocto'
   inputs:
-    azureSubscription: 'curlyocto - Service Endpoint'
+    azureSubscription: 'Visual Studio Enterprise (0f66754c-1916-4f2b-8132-cef666e97837)'
     WebAppName: curlyocto
     packageForLinux: '$(System.DefaultWorkingDirectory)/build'
