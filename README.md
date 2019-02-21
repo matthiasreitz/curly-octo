@@ -1,3 +1,5 @@
+[![Build Status](https://dev.azure.com/11012019/curlyocto/_apis/build/status/yml%20Pipeline?branchName=master)](https://dev.azure.com/11012019/curlyocto/_build/latest?definitionId=9&branchName=master)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
