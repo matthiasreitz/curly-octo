@@ -1,0 +1,25 @@
+pool:
+  vmImage: 'Ubuntu 16.04'
+variables:
+  imageName: 'nodejssample:$(Build.BuildId)'  
+steps:
+- task: NodeTool@0
+  displayName: 'Use Node version'
+  inputs:
+    versionSpec: 8.4
+- task: Npm@0
+  displayName: 'Install application dependencies'
+  inputs:
+    arguments: '--force'
+- task: Npm@1
+  displayName: 'npm run build'
+  inputs:
+    command: custom
+    verbose: false
+    customCommand: 'run build'
+- task: AzureRmWebAppDeployment@4
+  displayName: 'Azure App Service Deploy: curlyocto'
+  inputs:
+    azureSubscription: 'curlyocto - Service Endpoint'
+    WebAppName: curlyocto
+    packageForLinux: '$(System.DefaultWorkingDirectory)/build'
